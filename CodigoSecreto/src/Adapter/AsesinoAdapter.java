@@ -9,9 +9,18 @@ package Adapter;
  *
  * @author ccv
  */
-public class AsesinoAdapter {
+public class AsesinoAdapter implements TargetAgente {
     
-    TargetAgente target;
+    private Asesino asesino;
+    
+    public AsesinoAdapter() {
+        this.asesino = new Asesino();
+    }
+
+    @Override
+    public String mostrarColor() {
+        return asesino.getStatus();
+    }
     
     
             

@@ -10,5 +10,15 @@ package Adapter;
  * @author ccv
  */
 public class CivilInocente {
-    
+
+    private String status;
+
+    public CivilInocente() {
+        this.status = "civil";
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
 }

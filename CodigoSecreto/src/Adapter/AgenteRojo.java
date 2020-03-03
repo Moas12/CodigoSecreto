@@ -18,6 +18,7 @@ public class AgenteRojo implements TargetAgente{
 
     @Override
     public String mostrarColor() {
+        return "rojo";
     }
 
 }
